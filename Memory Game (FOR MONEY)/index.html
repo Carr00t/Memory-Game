@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/styles.css">
+  <title>Memory Game</title>
+</head>
+<body>
+  <div id="game-screen">
+    <div id="container">
+        <div class="card" data-cardname="king-of-spades">
+          <img class="card-front" src="PNG/KS.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="king-of-spades">
+          <img class="card-front" src="PNG/KS.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="king-of-hearts">
+          <img class="card-front" src="PNG/KH.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="king-of-hearts">
+          <img class="card-front" src="PNG/KH.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="king-of-diamonds">
+          <img class="card-front" src="PNG/KD.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="king-of-diamonds">
+          <img class="card-front" src="PNG/KD.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+      
+        <div class="card" data-cardname="king-of-clubs">
+          <img class="card-front" src="PNG/KC.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="king-of-clubs">
+          <img class="card-front" src="PNG/KC.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-spades">
+          <img class="card-front" src="PNG/QS.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-spades">
+          <img class="card-front" src="PNG/QS.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-hearts">
+          <img class="card-front" src="PNG/QH.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-hearts">
+          <img class="card-front" src="PNG/QH.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-diamonds">
+          <img class="card-front" src="PNG/QD.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-diamonds">
+          <img class="card-front" src="PNG/QD.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-clubs">
+          <img class="card-front" src="PNG/QC.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="queen-of-clubs">
+          <img class="card-front" src="PNG/QC.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-spades">
+          <img class="card-front" src="PNG/JS.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-spades">
+          <img class="card-front" src="PNG/JS.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+      
+        <div class="card" data-cardname="jack-of-hearts">
+          <img class="card-front" src="PNG/JH.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-hearts">
+          <img class="card-front" src="PNG/JH.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-diamonds">
+          <img class="card-front" src="PNG/JD.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-diamonds">
+          <img class="card-front" src="PNG/JD.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-clubs">
+          <img class="card-front" src="PNG/JC.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+
+        <div class="card" data-cardname="jack-of-clubs">
+          <img class="card-front" src="PNG/JC.png"></img>
+          <img class="card-back" src="PNG/purple_back.png"></img>
+        </div>
+    </div>
+  </div>
+  <div id="stopwatch">
+    00:00:00
+  </div>
+  
+  <button id="start-btn" onclick="start()">Start Game</button>
+
+  <footer id="version-tag">Version: 1.1.0</footer~>
+
+  <script defer src="src/script.js"></script>
+</body>
+</html>
